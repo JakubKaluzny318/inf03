@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Działania matematyczne</title>
+    <link rel="stylesheet" href="styl.css">
+</head>
+<body>
+    <header id="first">
+        <img src="logo.jpg" alt="matematyka">
+    </header>
+    <header id="second">
+        <h1>Pomocnik Matematyczny</h1>
+    </header>
+    <header id="third">
+        <a href="dzialania.html"><h4>Działania</h4></a>
+    </header>
+    <header id="fourth">
+        <a href="mnozenie.html"><h4>Tabliczka mnożenia</h4></a>
+    </header>
+    <main>
+        <section class="left">
+            <h3>Proste działania</h3>
+            <label for="">liczba A:</label><input type="text" id="a"><br>
+            <label for="">liczba B:</label><input type="text" id="b">
+            <br>
+            <button onclick="addition();">+</button>
+            <button onclick="substraction();">-</button>
+            <button onclick="multiplying();">*</button>
+            <button onclick="dividing();">/</button>
+            <button onclick="aggravation();">A^B</button>
+            <p id="res"></p>
+        </section>
+        <section class="right">
+            <ul>
+                <li>dodawanie</li>
+                <li>odejmowanie</li>
+                <li>mnożenie</li>
+                <li>dzielenie</li>
+                <li>potęowanie</li>
+            </ul>
+        </section>
+    </main>
+    <footer>
+        <p>Autor: </p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
