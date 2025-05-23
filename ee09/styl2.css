@@ -1,0 +1,48 @@
+* {
+    font-family: Cambria;
+    text-align: center;
+}
+header, footer {
+    background-color: rgb(120, 0, 46);
+    color: #fff;
+    padding: 5px;
+    font-size: 150%;
+}
+nav {
+    background-color: rgb(173, 20, 87);
+    text-align: left;
+}
+.left {
+    background-color: snow;
+    color: olivedrab;
+    width: 60%;
+    height: 322px;
+    text-align: left;
+    float: left;
+}
+.right {
+    background-color: rgb(173, 20, 87);
+    width: 40%;
+    height: 322px;
+    float: right;
+}
+#carImg {
+    margin: 40px;
+    padding: 10px;
+}
+#carImg:hover {
+    border: 1px dotted yellowgreen;
+}
+a {
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 50px;
+    padding-right: 50px;
+    color: yellowgreen;
+}
+table, td, th {
+    border: 1px solid olivedrab;
+}
+table {
+    width: 90%;
+}
