@@ -1,0 +1,54 @@
+* {
+    font-family: Garamond;
+}
+header {
+    background-color: tomato;
+    color: #fff;
+    text-align: center;
+    width: 80%;
+    height: 80px;
+}
+main {
+    float: left;
+    width: 80%;
+    height: 600px;
+}
+aside {
+    float: left;
+    background-color: coral;
+    width: 20%;
+    height: 680px;
+}
+footer {
+    clear: both;
+    background-color: tomato;
+    color: #fff;
+    text-align: center;
+}
+img {
+    border-radius: 50%;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.chat {
+    border: 1px solid tomato;
+    margin: 15px;
+    height: 470px;
+    overflow: scroll;
+}
+.jolkaChat {
+    background-color: #eee;
+}
+.krzysiekChat {
+    background-color: #ccc;
+    text-align: right;
+}
+button {
+    background-color: tomato;
+    border: 1px solid darkred;
+    padding: 5px;
+    font-weight: bold;
+}
+input {
+    width: 500px;
+}

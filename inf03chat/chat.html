@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat</title>
+    <link rel="stylesheet" href="styl.css">
+</head>
+<body>
+    <header>
+        <h2>Chat</h2>
+    </header>
+    <main>
+        <section class="chat">
+            <div class="jolkaChat">
+                <img src="Jolka.jpg">
+                <p>Cześć, idziesz jutro do kina?</p>
+                <p id="chatWindow"></p>
+            </div>
+            <div class="krzysiekChat">
+                <img src="Krzysiek.jpg">
+                <p>Tak! A ty?</p>
+            </div>
+            <label>Wpisz wiadomość: </label>
+            <input type="text" id="chatMessage">
+            <button onclick="sendText();">Wyślij</button>
+            <button onclick="generateRandomAnswer();">Generuj losową odpowiedź</button>
+        </section>
+    </main>
+    <aside>
+        <h3>Chaty</h3>
+        <ul>
+            <li>Ogólny</li>
+            <li>Tematyczne
+                <ol>
+                    <li>Turystyczny</li>
+                    <li>Żeglarski</li>
+                    <li>Filatelistyczny</li>
+                    <li>Hodowla zwierzątek domowych</li>
+                </ol>
+            </li>
+        </ul>
+        <h3>Uczestnicy</h3>
+        <p>Jolanta Nowak</p>
+        <img src="Jolka.jpg" alt="Jolanta Nowak">
+        <p>Krzysztof Łukasiński</p>
+        <img src="Krzysiek.jpg" alt="Krzysztof Łukasiński">
+    </aside>
+    <footer>
+        <h5>Chat wykonał</h5>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
