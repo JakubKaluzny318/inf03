@@ -1,5 +1,0 @@
-kw1: SELECT marka, rocznik FROM samochody WHERE kolor = 'niebieski';
-kw2: SELECT COUNT(marka) FROM samochody WHERE marka = 'toyota' OR marka = 'opel' AND stan = 'bardzo dobry';
-kw3: UPDATE `samochody` SET `stan` = 'dobry' WHERE rocznik < 2004;
-kw4: CREATE USER 'jan@localhost' identified BY 'janKowalski1@'
-kw5: GRANT SELECT, INSERT, UPDATE ON samochody1.samochody TO 'jan@localhost'
